@@ -43,3 +43,6 @@ Note: The options to use in buttons are:
 ```
 
 The style is the only one with a default value
+
+
+Clicking on the overlay returns "exit"
