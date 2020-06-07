@@ -35,9 +35,13 @@ modal(<title>, <text>, <buttons>, <callback>)
 Note: The options to use in buttons are:
 
 {
+
   text: "",
+  
   return: "",
+  
   style: ""
+  
 }
 
 The style is the only one with a default value
