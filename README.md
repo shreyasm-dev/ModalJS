@@ -34,7 +34,7 @@ modal(<title>, <text>, <buttons>, <callback>)
 
 Note: The options to use in buttons are:
 
-```json
+```javascript
 {
   text: "",
   return: "",
