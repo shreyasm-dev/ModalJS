@@ -52,7 +52,6 @@ const modal = (title, text, buttons, callback) => {
       }
 
       currentButton.style.margin = '0 auto'
-
       currentButton.innerHTML = buttons[i].text
 			currentButton.setAttribute('data-return', buttons[i].return)
       currentButton.addEventListener('click', function() {
@@ -91,6 +90,10 @@ const modal = (title, text, buttons, callback) => {
 	<h1>${title}</h1>
 	<div>${text}</div>
 	`
+	
+	modal.style.maxHeight = (window.innerHeight/2) + 'px'
+	modal.style.maxWidth = (window.innerWidth/2) + 'px'
+	modal.style.overflowY = 'scroll'
   modal.appendChild(button)
 
   cover.addEventListener('click', function kill() {
